@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		025235642E5F624300F0B85F /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = 025235632E5F624300F0B85F /* KeyboardShortcuts */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		025234DB2E5F251500F0B85F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 025234C42E5F251400F0B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 025234CB2E5F251400F0B85F;
+			remoteInfo = Zerodash;
+		};
+		025234E52E5F251500F0B85F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 025234C42E5F251400F0B85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 025234CB2E5F251400F0B85F;
+			remoteInfo = Zerodash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		025234CC2E5F251400F0B85F /* Zerodash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zerodash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		025234DA2E5F251500F0B85F /* ZerodashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZerodashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		025234E42E5F251500F0B85F /* ZerodashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZerodashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		025234CE2E5F251400F0B85F /* Zerodash */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Zerodash;
+			sourceTree = "<group>";
+		};
+		025234DD2E5F251500F0B85F /* ZerodashTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ZerodashTests;
+			sourceTree = "<group>";
+		};
+		025234E72E5F251500F0B85F /* ZerodashUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ZerodashUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		025234C92E5F251400F0B85F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025235642E5F624300F0B85F /* KeyboardShortcuts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025234D72E5F251500F0B85F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025234E12E5F251500F0B85F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		025234C32E5F251400F0B85F = {
+			isa = PBXGroup;
+			children = (
+				025234CE2E5F251400F0B85F /* Zerodash */,
+				025234DD2E5F251500F0B85F /* ZerodashTests */,
+				025234E72E5F251500F0B85F /* ZerodashUITests */,
+				025234CD2E5F251400F0B85F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		025234CD2E5F251400F0B85F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				025234CC2E5F251400F0B85F /* Zerodash.app */,
+				025234DA2E5F251500F0B85F /* ZerodashTests.xctest */,
+				025234E42E5F251500F0B85F /* ZerodashUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		025234CB2E5F251400F0B85F /* Zerodash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025234EE2E5F251500F0B85F /* Build configuration list for PBXNativeTarget "Zerodash" */;
+			buildPhases = (
+				025234C82E5F251400F0B85F /* Sources */,
+				025234C92E5F251400F0B85F /* Frameworks */,
+				025234CA2E5F251400F0B85F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				025234CE2E5F251400F0B85F /* Zerodash */,
+			);
+			name = Zerodash;
+			packageProductDependencies = (
+				025235632E5F624300F0B85F /* KeyboardShortcuts */,
+			);
+			productName = Zerodash;
+			productReference = 025234CC2E5F251400F0B85F /* Zerodash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		025234D92E5F251500F0B85F /* ZerodashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025234F12E5F251500F0B85F /* Build configuration list for PBXNativeTarget "ZerodashTests" */;
+			buildPhases = (
+				025234D62E5F251500F0B85F /* Sources */,
+				025234D72E5F251500F0B85F /* Frameworks */,
+				025234D82E5F251500F0B85F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				025234DC2E5F251500F0B85F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				025234DD2E5F251500F0B85F /* ZerodashTests */,
+			);
+			name = ZerodashTests;
+			packageProductDependencies = (
+			);
+			productName = ZerodashTests;
+			productReference = 025234DA2E5F251500F0B85F /* ZerodashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		025234E32E5F251500F0B85F /* ZerodashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025234F42E5F251500F0B85F /* Build configuration list for PBXNativeTarget "ZerodashUITests" */;
+			buildPhases = (
+				025234E02E5F251500F0B85F /* Sources */,
+				025234E12E5F251500F0B85F /* Frameworks */,
+				025234E22E5F251500F0B85F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				025234E62E5F251500F0B85F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				025234E72E5F251500F0B85F /* ZerodashUITests */,
+			);
+			name = ZerodashUITests;
+			packageProductDependencies = (
+			);
+			productName = ZerodashUITests;
+			productReference = 025234E42E5F251500F0B85F /* ZerodashUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		025234C42E5F251400F0B85F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					025234CB2E5F251400F0B85F = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					025234D92E5F251500F0B85F = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 025234CB2E5F251400F0B85F;
+					};
+					025234E32E5F251500F0B85F = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 025234CB2E5F251400F0B85F;
+					};
+				};
+			};
+			buildConfigurationList = 025234C72E5F251400F0B85F /* Build configuration list for PBXProject "Zerodash" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 025234C32E5F251400F0B85F;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				025235622E5F624300F0B85F /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 025234CD2E5F251400F0B85F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				025234CB2E5F251400F0B85F /* Zerodash */,
+				025234D92E5F251500F0B85F /* ZerodashTests */,
+				025234E32E5F251500F0B85F /* ZerodashUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		025234CA2E5F251400F0B85F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025234D82E5F251500F0B85F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025234E22E5F251500F0B85F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		025234C82E5F251400F0B85F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025234D62E5F251500F0B85F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025234E02E5F251500F0B85F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		025234DC2E5F251500F0B85F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 025234CB2E5F251400F0B85F /* Zerodash */;
+			targetProxy = 025234DB2E5F251500F0B85F /* PBXContainerItemProxy */;
+		};
+		025234E62E5F251500F0B85F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 025234CB2E5F251400F0B85F /* Zerodash */;
+			targetProxy = 025234E52E5F251500F0B85F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		025234EC2E5F251500F0B85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		025234ED2E5F251500F0B85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		025234EF2E5F251500F0B85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Zerodash/Zerodash.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ZeroDash;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codezero.Zerodash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		025234F02E5F251500F0B85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Zerodash/Zerodash.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ZeroDash;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codezero.Zerodash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		025234F22E5F251500F0B85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codezero.ZerodashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zerodash.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zerodash";
+			};
+			name = Debug;
+		};
+		025234F32E5F251500F0B85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codezero.ZerodashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zerodash.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zerodash";
+			};
+			name = Release;
+		};
+		025234F52E5F251500F0B85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codezero.ZerodashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Zerodash;
+			};
+			name = Debug;
+		};
+		025234F62E5F251500F0B85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codezero.ZerodashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Zerodash;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		025234C72E5F251400F0B85F /* Build configuration list for PBXProject "Zerodash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025234EC2E5F251500F0B85F /* Debug */,
+				025234ED2E5F251500F0B85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		025234EE2E5F251500F0B85F /* Build configuration list for PBXNativeTarget "Zerodash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025234EF2E5F251500F0B85F /* Debug */,
+				025234F02E5F251500F0B85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		025234F12E5F251500F0B85F /* Build configuration list for PBXNativeTarget "ZerodashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025234F22E5F251500F0B85F /* Debug */,
+				025234F32E5F251500F0B85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		025234F42E5F251500F0B85F /* Build configuration list for PBXNativeTarget "ZerodashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025234F52E5F251500F0B85F /* Debug */,
+				025234F62E5F251500F0B85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		025235622E5F624300F0B85F /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/KeyboardShortcuts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		025235632E5F624300F0B85F /* KeyboardShortcuts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 025235622E5F624300F0B85F /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */;
+			productName = KeyboardShortcuts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 025234C42E5F251400F0B85F /* Project object */;
+}
