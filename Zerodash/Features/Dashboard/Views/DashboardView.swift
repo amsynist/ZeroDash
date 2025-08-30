@@ -19,6 +19,10 @@ struct DashboardView: View {
 
 #Preview {
     DashboardView()
+        .frame(
+            width: AppConstants.Layout.dashboardWidth,
+            height: AppConstants.Layout.dashboardHeight
+        )
         .background(Color.black)
         .preferredColorScheme(.dark)
 }

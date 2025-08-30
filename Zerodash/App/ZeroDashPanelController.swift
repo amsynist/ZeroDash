@@ -11,7 +11,7 @@ final class ZeroDashPanelController {
     private var panel: ZeroDashPanel?
     private var hosting: NSHostingView<AnyView>?
 
-    private let defaultSize = CGSize(width: 860, height: 620)
+    private let defaultSize = AppConstants.Layout.dashboardSize
     private let nonActivating = true
 
     func toggle(content: some View,

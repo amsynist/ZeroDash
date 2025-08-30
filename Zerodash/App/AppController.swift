@@ -34,7 +34,7 @@ final class AppController {
             debugPrint("AppController", "Executing dashboard toggle with DashboardRoot")
             self.panelController.toggle(
                 content: DashboardRoot(),
-                size: CGSize(width: 860, height: 620),
+                size: AppConstants.Layout.dashboardSize,
                 centerOnFirstShow: true,
                 activateApp: activateApp
             )
@@ -46,7 +46,7 @@ final class AppController {
         debugPrint("AppController", "Showing dashboard explicitly")
         panelController.show(
             content: DashboardRoot(),
-            size: CGSize(width: 860, height: 620),
+            size: AppConstants.Layout.dashboardSize,
             centerOnFirstShow: true,
             activateApp: activateApp
         )

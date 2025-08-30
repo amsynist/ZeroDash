@@ -11,7 +11,6 @@ struct DashboardRoot: View {
     }
 }
 
-
 struct DashboardChrome<Content: View>: View {
     let content: Content
     private let corner: CGFloat = 18
@@ -20,19 +19,24 @@ struct DashboardChrome<Content: View>: View {
         ZStack {
             // HUD glass background
             RoundedRectangle(cornerRadius: corner, style: .continuous)
-                .fill(Color.black.opacity(0.45))       // tinted dark
-                .background(.ultraThinMaterial)        // native blur layer
+                .fill(Color.black.opacity(0.65))  // tinted dark
+                .background(.ultraThinMaterial)  // native blur layer
                 .overlay(
                     // Very subtle gradient tint (blue → purple glow feel)
                     LinearGradient(
                         colors: [
                             Color.blue.opacity(0.08),
-                            Color.purple.opacity(0.08)
+                            Color.purple.opacity(0.08),
                         ],
                         startPoint: .topLeading,
                         endPoint: .bottomTrailing
                     )
-                    .clipShape(RoundedRectangle(cornerRadius: corner, style: .continuous))
+                    .clipShape(
+                        RoundedRectangle(
+                            cornerRadius: corner,
+                            style: .continuous
+                        )
+                    )
                 )
                 .shadow(color: .black.opacity(0.5), radius: 24, x: 0, y: 14)
 
@@ -43,7 +47,7 @@ struct DashboardChrome<Content: View>: View {
                             LinearGradient(
                                 colors: [
                                     Color.white.opacity(0.08),
-                                    Color.cyan.opacity(0.25)
+                                    Color.cyan.opacity(0.25),
                                 ],
                                 startPoint: .topLeading,
                                 endPoint: .bottomTrailing
@@ -53,19 +57,20 @@ struct DashboardChrome<Content: View>: View {
                 )
 
                 .overlay(content.padding(20))
-                .clipShape(RoundedRectangle(cornerRadius: corner, style: .continuous))
-                .padding(8)
+                .clipShape(
+                    RoundedRectangle(cornerRadius: corner, style: .continuous)
+                )
         }
         .compositingGroup()
         .preferredColorScheme(.dark)
     }
 }
 
-
-
-
 #Preview("Dashboard") {
     DashboardRoot()
-        .frame(width: 800, height: 500)
+        .frame(
+            width: AppConstants.Layout.dashboardWidth,
+            height: AppConstants.Layout.dashboardHeight
+        )
         .preferredColorScheme(.dark)
 }
